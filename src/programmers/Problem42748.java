@@ -1,8 +1,8 @@
-package programmers.sort;
+package programmers;
 
 import java.util.Arrays;
 
-public class problem42748 {
+public class Problem42748 {
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
         for(int i=0;i<commands.length;i++){
